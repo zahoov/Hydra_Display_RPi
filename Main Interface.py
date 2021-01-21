@@ -1041,6 +1041,7 @@ class FuelGaugeApp(App):
 
     def tester(self, wow):
         #print(wow)
+        pass
 
 
 
