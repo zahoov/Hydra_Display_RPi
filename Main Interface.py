@@ -1040,7 +1040,7 @@ class FuelGaugeApp(App):
         #print(self.current_page)
 
     def tester(self, wow):
-        print(wow)
+        #print(wow)
 
 
 
