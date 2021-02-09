@@ -878,7 +878,7 @@ class FuelGaugeApp(App):
 
     dest_id = StringProperty(arb_id[5:7])
     # The 0 inside the brackets is providing an initial value for hMass -- required or else something breaks
-    #hMass = NumericProperty(0)
+    hMass = NumericProperty(0)
     #hMass = 12.7
 
     # error_code is a string variable that is used to temporarily store the current error code taken from the text document it is stored in. It is a string because after coming from the .txt the data is a string and
